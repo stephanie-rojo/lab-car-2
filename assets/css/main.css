@@ -1,0 +1,459 @@
+/*dando estilo a encabezado*/
+.navbar{
+  color:black;
+  font-size: 1.3em;
+  background-color: white;
+}
+.nav{
+  padding-right: 5em;
+  margin-bottom: 1em;
+
+}
+.foto-encabezado{
+margin-bottom: -1.5em;
+
+}
+.log-in a:hover{
+  color: #838B9C !important;
+}
+
+
+/*modal iniciar cesion*/
+.modal-footer{
+  border-top: none;
+}
+.modal-content{
+ background-color: #08AC9D;
+ padding-bottom: 2em;
+}
+.imagen-cesion{
+  background-color: #027FEB;
+  width: 15em;
+  height: 13em;
+  margin-left: 12em;
+  margin-top: 1em;
+}
+.icon-secion{
+  color: #3390FF;
+  font-size: 11em;
+  margin-left: 0.2em;
+  margin-top: 0.1em;
+}
+.body{
+  background-color: #F5F5F5;
+  border: 1px solid black;
+  width: 20em;
+  height: 15em;
+  margin-left: 10.5em;
+  margin-top: 1em;
+}
+.lock{
+  margin-top: 0.5em;
+}
+.LOGING{
+  background-color: #F0AD4E;
+  margin-top: 1em;
+}
+.forgot{
+  margin-top: 0.5em;
+}
+.click{
+  color: red;
+}
+/*colocando fondo de pantalla más texto*/
+.fondo-desktop{
+  background-image: url(../../assets/images/taxi.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom 7% center;
+  background-size: cover;
+  height: 55em;
+}
+.contenido{
+  background-color: #F7B617;
+  margin-top: 17em;
+
+}
+.contenido2{
+  background-color: #F7B617;
+  margin-top: 25em;
+}
+.titulo1{
+  font-size: 2.5em;
+  color: white;
+  margin-top: 5%;
+  margin-left: 1em;
+}
+.titulo2{
+  font-size: 2.5em;
+  color: white;
+  margin-top: -3%;
+  margin-left: 1em;
+}
+.titulo3{
+  font-size: 2.4em;
+  color: white;
+  margin-top: 5%;
+  margin-left: 0.2em;
+}
+.titulo4{
+  font-size: 2.4em;
+  color: white;
+  margin-top: -2em;
+  margin-left: 0.2em;
+  display: inline-block;
+}
+.viaja{
+  color: white;
+  font-size: 1.5em;
+  display: inline-block;
+  margin-left: 1.5em;
+}
+.logo-blanco{
+  width: 18%;
+  margin-left:0.5em;
+  margin-top: -0.4em;
+}
+.logo-blanco2{
+  width: 30%;
+  margin-top: -1em;
+  margin-left: 0.5em;
+  display: inline-block;
+}
+
+.btn1{
+  margin-left: 1.5em;
+  width: 10em;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.linea{
+  width: 7em;
+  background: white;
+  margin-left: 2em;
+
+}
+ .continue::after, .continue::before{
+ content: " ";
+ display: inline-block;
+ width: 20%;
+ height: 0.1em;
+ background-color: #FFFFFF ;
+ margin: 1%;
+ margin-top: 1.5em;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+.continue{
+  color: white;
+}
+.btn2{
+  margin-left: 1.5em;
+  width: 15em;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 2em;
+
+}
+.btn4{
+  width: 10em;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 2em;
+  margin-left: 0.5em;
+
+}
+
+/*modal registrar*/
+.registrar-1{
+  background-color: #A9A9A9;
+}
+.linea-header{
+  border-bottom: none;
+}
+.cuenta{
+  color: white;
+  background-color: black;
+  width: 25em;
+}
+
+.input-text{
+  margin-left: 8em;
+  margin-top: 0.5em;
+  width: 24em;
+}
+.text-cuenta{
+  margin-top: 1em;
+}
+.noticia{
+  width: 24em;
+  margin-left: 9em;
+
+}
+.enviar{
+  background-color: #5BC0DE;
+  width: 24em;
+  margin-left: 9em;
+  margin-top: 0.5em;
+}
+/*modal convertirse en conductor*/
+.Alternativas{
+  margin-left: 5em;
+}
+.text-convertirseconductor{
+  font-weight: bold;
+  margin-top: 1.5em;
+}
+.input-matricula{
+  margin-left: em;
+  width: 32em;
+}
+.btn-respuestas{
+  text-align: left;
+  width: 32em;
+}
+.btn-enviarrespuestas{
+  background-color: #5BC0DE;
+  width: 32em;
+  margin-left: 6em;
+}
+/* dando estilo a texto e imagen del celular*/
+#descarga{
+  background-color: #F7B617;
+}
+.bordes{
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  margin-right: 2.5em;
+  border-top: 1px solid white;
+  border-right:1px solid white;
+  border-bottom: 1px solid white;
+}
+.bordes-movil{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 1.3em;
+  border-top: 2px solid white;
+  border-right:2px solid white;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  width: 90%;
+}
+.nueva-app{
+  color: white;
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  text-align: center;
+
+}
+.destino{
+  color: white;
+  font-size: 1em;
+  padding-left: 0.7em;
+}
+.celular{
+  width: 60%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+}
+.celular2{
+  width: 60%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 4.5em;
+}
+.app{
+  color: white;
+  font-size: 2.2em;
+  padding-top: 1em;
+
+}
+.texto{
+  color: white;
+  font-size: 1.2em;
+  text-align: justify;
+  margin-right: 9em;
+  padding-top: 1em;
+
+}
+
+/*dando estilo al texto sobre la imagen*/
+#conductor-2{
+  background-image: url(../../assets/images/conduce.jpg);
+  background-repeat: no-repeat;
+  background-position: top 55% center;
+  background-size: cover;
+  height: 30em;
+}
+.contenido3{
+  background-color: rgba(1, 0, 0, 0.5);
+}
+.titulo5{
+  font-size: 2.3em;
+  color: white;
+  margin-top: 1.5em;;
+  margin-left: 0.7em;
+}
+.viaja2{
+  color: white;
+  font-size: 1.5em;
+  display: inline-block;
+  margin-left: 1.4em;
+  margin-top: 0.2em;
+}
+.btn3{
+  background-color: #F7B617;
+  border:1px solid #F7B617;
+  color: white;
+  width: 15em;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 2em;
+  margin-left: 1.5em;
+  margin-top: 1em;
+}
+/*dando estilo a mapa*/
+#mapa{
+    background-color: #F7B617;
+}
+.tarifas{
+  color: white;
+  font-size: 1.6em;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+.consulta{
+  color: white;
+  font-size: 1.2em;
+  margin-left: 2.7em;
+}
+.consulta2{
+color: white;
+font-size: 1.2em;
+margin-left: 2.7em;
+}
+.circulo{
+  margin-left: 3em;
+  display: inline-block;
+}
+.input1{
+  width: 50%;
+  margin-left: 1em;
+  border: 0.1em solid white;
+  border-radius: 0.5em;
+  background-color: #F7B617;;
+  display: inline-block;
+}
+.input1::placeholder{
+  color: white;
+}
+.flecha{
+  margin-left: 3em;
+  margin-top: 0.1em;
+  display: inline-block;
+}
+.contenido4{
+  margin-bottom: 2em;
+}
+.contenido5{
+  margin-bottom: 2em;
+}
+.input2{
+  width: 50%;
+  color: white;
+  margin-left: 1em;
+  margin-top: 1em;
+  border: 0.1em solid white;
+  border-radius: 0.5em;
+  background-color: #F7B617;
+  display: inline-block;
+}
+.input2::placeholder{
+  color: white;
+}
+.btn5{
+  width: 8em;
+  font-size: 1.2em;
+  margin-left: 8em;
+  margin-top:1em;
+}
+.btn6{
+  width: 8em;
+  font-size: 1.2em;
+  margin-left: 5em;
+  margin-top:1em;
+}
+.mapcity{
+  width: 28em;
+  height: 25em;
+  margin-left:7em;
+  padding: 0.5em;
+  margin-top:1em;
+  border: 0.1em solid white;
+}
+.mapcity2{
+  width: 20em;
+  height: 22em;
+  margin-left:2.5em;
+  padding: 0.5em;
+  margin-top:1em;
+  border: 0.1em solid white;
+}
+#bajada-final{
+  background-color:#2B2B2B;
+}
+.lab-car{
+  padding-top: 4em;
+  padding-left: 0.5;
+}
+.contenedor-iconos{
+  color: white;
+  margin-top: 18em;
+}
+.contenedor-iconos2{
+  color: white;
+  margin-top: 1em;
+}
+.list-group{
+  color: #C1C1C1;
+  font-size: 0.9em;
+  list-style: none;
+  margin-top: 2em;
+}
+.list-group2{
+  color: #C1C1C1;
+  font-size: 0.9em;
+  list-style: none;
+  margin-top: 2em;
+  margin-left: -1.8em;
+}
+li{
+  padding-bottom: 1em;
+}
+.apple{
+  width: 60%;
+  margin-top: 9em;
+}
+.apple2{
+  width: 60%;
+  margin-top: 1em;
+}
+.play{
+  width: 60%;
+  margin-top: 1em;
+}
+.play2{
+  width: 60%;
+  margin-top: 1em;
+}
+.©{
+  color: #C1C1C1;
+}
+.©-2{
+  color: #C1C1C1;
+  margin-left: 1.5em;
+}
+.linea-baja{
+  width: 100%;
+}
